@@ -239,3 +239,239 @@ ul a{
    
      padding-top: 5px;
 }
+/* RESPONSIVE DESIGN */
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .nav-logo {
+        flex: 0 0 30%;
+    }
+    
+    .nav-address {
+        display: none;
+    }
+    
+    .nav-search {
+        flex: 1;
+        width: 100%;
+        margin: 10px;
+        order: 3;
+    }
+    
+    .nav-singin, .nav-return {
+        display: none;
+    }
+    
+    .nav-cart {
+        flex: 0 0 auto;
+        order: 2;
+    }
+    
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .panel-ops {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .panel-ops p {
+        margin: 5px 10px;
+        font-size: 0.75rem;
+    }
+    
+    .panel-all {
+        flex: 0 0 auto;
+    }
+    
+    .hero-section {
+        height: 200px;
+    }
+    
+    .hero-msg {
+        font-size: 0.7rem;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .shop-section {
+        flex-direction: column;
+    }
+    
+    .box {
+        width: 90%;
+        height: 300px;
+        margin: 10px auto;
+    }
+    
+    .box-img {
+        height: 200px;
+    }
+    
+    .foot-panel2 {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 10px;
+    }
+    
+    .foot-panel2 ul {
+        margin: 15px;
+        flex: 0 0 45%;
+    }
+    
+    .foot-panel3 {
+        height: 50px;
+    }
+    
+    .foot-panel4 {
+        height: auto;
+        padding: 15px 0;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px 0;
+    }
+    
+    .nav-logo {
+        flex: 0 0 25%;
+    }
+    
+    .nav-search {
+        flex: 1;
+        width: 100%;
+        margin: 8px 5px;
+        padding: 0 5px;
+    }
+    
+    .search-select {
+        width: 35px;
+        font-size: 0.7rem;
+    }
+    
+    .search-input {
+        font-size: 0.85rem;
+    }
+    
+    .nav-cart {
+        font-size: 0.7rem;
+    }
+    
+    .nav-cart i {
+        font-size: 20px;
+    }
+    
+    .panel {
+        display: none;
+    }
+    
+    .hero-section {
+        height: 150px;
+    }
+    
+    .hero-msg {
+        width: 95%;
+        font-size: 0.6rem;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .shop-section {
+        padding: 10px 0;
+    }
+    
+    .box {
+        width: 95%;
+        height: 250px;
+        margin: 8px auto;
+        padding: 15px 0 10px;
+    }
+    
+    .box-content {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .box-content h2 {
+        font-size: 0.9rem;
+    }
+    
+    .box-img {
+        height: 150px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .foot-panel1 {
+        height: 40px;
+        font-size: 0.7rem;
+    }
+    
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .foot-panel2 ul {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+    
+    .foot-panel2 ul p {
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+    
+    .foot-panel2 ul a {
+        font-size: 0.7rem;
+        margin-top: 10px;
+    }
+    
+    .foot-panel3 {
+        height: 40px;
+    }
+    
+    .logo1 {
+        height: 30px;
+    }
+    
+    .foot-panel4 {
+        font-size: 0.6rem;
+        padding: 10px 0;
+    }
+    
+    .pages {
+        padding-top: 10px;
+    }
+    
+    .copyright {
+        padding-top: 5px;
+    }
+}
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .box {
+        width: 22%;
+    }
+}
+
+/* Small Tablet (600px to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .box {
+        width: 45%;
+    }
+}
+
